@@ -19,6 +19,17 @@ Lorsque nous sommes revenus sur le commit "Initial commit", Git a restauré l'é
 Seuls les éléments présents dans le projet lors de ce premier commit étaient visibles.
 Quand nous sommes ensuite revenus au dernier commit, Git a rétabli le répertoire de travail dans son état le plus récent, incluant tous les fichiers, dossiers et modifications effectués depuis le commit initial, ramenant ainsi le projet à sa version finale.
 ## Gitgraph
+1) develop : Nom de la branche de développement.
+2) baa6795 : Hash du commit (identifiant unique) pour le commit "Merge branch 'feature-auth' into 'develop'".
+3) Message de commit : "Merge branch 'feature-auth' into 'develop'" est le message associé à ce commit, indiquant une fusion de la branche feature-auth dans develop.
+4) Auteur du commit : ByteMe Bob bob.byteme@hevs.ch est l’auteur du commit de fusion de la branche feature-auth dans develop.
+5) v1.0.0 : Tag ou version indiquant la première version stable ou majeure du projet. Il est associé au commit 7725aa3.
+6) Représente un commit sur la branche develop (en bleu) qui est aussi un point de fusion avec la branche feature-auth (en jaune). Ce commit intègre probablement des modifications de la branche feature-auth dans develop.
+7) Correspond à un commit sur la branche feature-auth, où une fonctionnalité spécifique (comme l'authentification utilisateur) a été développée. Ce commit est ensuite fusionné dans la branche develop.
+8) Ce point représente la branche main (en gris). Il est au même niveau que la fusion entre develop et feature-auth, indiquant une possible version stable prête pour la production, ou une version taguée.
+9) Ce point fait partie de la branche main et correspond à un commit intermédiaire dans l'historique, montrant le développement progressif du projet.
+10) Il s'agit du "commit initial" (initial commit) du projet, le tout premier commit dans la branche main, où le dépôt a été initialisé.
+
 
 ### Task 7
 
