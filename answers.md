@@ -1,4 +1,4 @@
-# Answers of <students-firstname> <students-lastname> <github-username>
+# Answers of Diogo Febre Diogodafebre
 
 ## Basics
 ### Task 1
